@@ -13,8 +13,7 @@ def index():
 @app.route('/tfidf')
 def url_reader():
     query_params = request.args.to_dict()
-    eval = Scrapping.get_html_data_service(query_params)
-    return eval
+    return Scrapping.get_html_data_service(query_params)
 
 
 if __name__ == '__main__':
