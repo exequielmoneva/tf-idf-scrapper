@@ -1,4 +1,6 @@
 # tf-idf-scrapper
+===================
+
 A simple API to check the tf-idf of the words from a web page.
 
 # Stack of the project:
@@ -9,7 +11,10 @@ A simple API to check the tf-idf of the words from a web page.
  - Docker
  - Python 3.8
 
+----------
+
 # Installation
+----------
 Inside the root folder of the project, run the following command
 
 ```sh
@@ -55,3 +60,7 @@ Example of response:
     ]
 }
 ```
+
+# ToDo
+ - [ ] Write unit tests for all cases 
+ - [ ] Implement Marshmallow for JSON's responses
