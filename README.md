@@ -64,3 +64,4 @@ Example of response:
 # ToDo
  - [ ] Write unit tests for all cases 
  - [ ] Implement Marshmallow for JSON's responses
+ - [ ] Implement cache for the requests
