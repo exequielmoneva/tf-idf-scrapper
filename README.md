@@ -30,7 +30,7 @@ Then start the project with the following command
 Now, you can test it at:
 
 ```
-http://localhost:8000/tfidf
+http://localhost:5000/tfidf
 ```
 # How to use:
 this API only acepts 2 qeury params:
@@ -39,7 +39,7 @@ this API only acepts 2 qeury params:
 
 Example of URL:
 ```
-http://localhost:8000/tfidf?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTf-idf&limit=3
+http://localhost:5000/tfidf?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTf-idf&limit=3
 ```
 Example of response:
 ```json
