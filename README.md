@@ -30,7 +30,7 @@ Then start the project with the following command
 Now, you can test it at:
 
 ```
-http://localhost:5000/tfidf
+http://localhost:5000/
 ```
 # How to use:
 this API only acepts 2 qeury params:
