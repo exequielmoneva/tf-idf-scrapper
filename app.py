@@ -13,7 +13,7 @@ def index():
 @app.route('/tfidf')
 def url_reader():
     query_params = request.args.to_dict()
-    if len(query_params)>2:
+    if len(query_params) > 2:
         return jsonify(error="Unauthorized parameters")
     return Scrapping.get_html_data_service(query_params)
 
