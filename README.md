@@ -33,7 +33,7 @@ Now, you can test it at:
 http://localhost:5000/
 ```
 # How to use:
-this API only acepts 2 qeury params:
+this API only acepts 2 query params:
 - url: URL from the web page
 - limit: how many terms would you like to get
 
